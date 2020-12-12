@@ -65,7 +65,7 @@ body {
 .list__item--active {
     &:hover {
         color: $light_red;
-        
+
         cursor: pointer;
     }
 }
@@ -207,6 +207,11 @@ body {
     font-weight: 600;
 
     border-radius: 0;
+
+    &:focus {
+        outline: none;
+        border-color: rgba(56, 29, 219, 0.8);
+    }
 }
 
 .form__title {
@@ -245,6 +250,7 @@ body {
 }
 
 .form__text-email {
+    margin-left: 2px;
     color: $blue;
 }
 
@@ -260,6 +266,98 @@ body {
     background-color: $blue;
     border: none;
     border-radius: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.services__inner {
+    margin-top: 140px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.services__photo {
+    position: relative;
+}
+
+.services__img {
+    margin-top: 76px;
+
+    box-shadow: 0 20px 60px rgba($dark, 0.2);
+}
+
+.services__firm-style {
+    position: absolute;
+    top: 96px;
+    left: 20px;
+}
+
+.services__content {
+    margin-left: 130px;
+    width: 570px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.services__devider {
+    margin-top: 140px;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.services__title {
+    margin-top: 30px;
+
+    text-align: right;
+}
+
+.services__subtitle {
+    margin-top: 40px;
+
+    text-align: right;
+}
+
+.services__arrows {
+    margin-top: 37px;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+}
+
+.arrows__text {
+    margin: 0 15px;
+
+    color: $dark;
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+
+    opacity: 0.8;
 }
 
 @media (max-width: 1600px) {
