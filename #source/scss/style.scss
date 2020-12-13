@@ -5,6 +5,7 @@ $light : #fff;
 $blue : #381DDB;
 $light_red: #FFA3A3;
 $dark: #222222;
+$red: #FC5252;
 
 body {
     font-family: Montserrat;
@@ -204,7 +205,7 @@ body {
     font-family: Raleway;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 400;
 
     border-radius: 0;
 
@@ -230,7 +231,7 @@ body {
     font-family: Raleway;
     font-size: 14px;
     line-height: 18px;
-    font-weight: 800;
+    font-weight: 400;
 
     display: flex;
 }
@@ -485,7 +486,110 @@ body {
     left: 70px;
 }
 
+.working {
+    display: flex;
+    justify-content: center;
+}
 
+.working__inner {
+    width: 1180px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: $dark;
+
+    position: relative;
+}
+
+.working__img-1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.working__img-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.working__content {
+    padding: 120px 200px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.working__title {
+    color: $light;
+    text-align: center;
+}
+
+.working__subtitle {
+    margin-top: 30px;
+    width: 450px;
+
+    text-align: center;
+    color: rgba($light, 0.7);
+}
+
+.working__subscribe-form {
+    margin-top: 30px;
+
+    
+}
+
+.subscribe-form__text {
+    padding: 12px 14px;
+    height: 48px;
+    width: 260px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    color: $light;
+
+    &:placeholder {
+        font-family: Raleway;
+        font-size: 16px;
+        color: $light;
+    }
+    
+
+    background-color: rgba($light, 0.1);
+    border: none;
+}
+
+.subscribe-form__button {
+    margin-left: 10px;
+    padding: 14px 28px;
+    width: 146px;
+
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: bold;
+    color: $light;
+
+    background-color: $red;
+    border: none;
+}
+
+.working__add-text {
+    margin-top: 30px;
+
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba($light, 0.3);
+}
+
+.customers__inner {
+    margin-top: 140px;
+}
 
 @media (max-width: 1600px) {
 
