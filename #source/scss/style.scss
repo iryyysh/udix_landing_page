@@ -324,7 +324,7 @@ body {
     font-family: Raleway;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .services__title {
@@ -351,11 +351,11 @@ body {
 .arrows__text {
     margin: 0 15px;
 
-    color: $dark;
+    color: rgba($dark, 0.5);
     font-family: Raleway;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 600;
+    font-weight: 400;
 
     opacity: 0.8;
 }
@@ -448,6 +448,43 @@ body {
 .solutions__devider {
     margin-top: 140px;
 }
+
+
+.technology__inner {
+    margin: 140px 0;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.technology__text {
+    margin-left: 140px;
+    width: 570px;
+}
+
+.technology__subtitle {
+    margin: 40px 0 80px;
+}
+
+.icon-link__text--blue {
+    color: $blue;
+}
+
+.technology__photos {
+    height: 480px;
+
+    box-shadow: 0 20px 100px rgba($dark, 0.15);
+
+    position: relative;   
+}
+
+.technology__img--absolute {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
 
 
 @media (max-width: 1600px) {

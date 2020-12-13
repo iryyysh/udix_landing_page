@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 
     font-family: 'Raleway';
 
@@ -12,9 +12,50 @@
         
     url('../fonts/Raleway-VariableFont_wght.svg') format('svg');
         
-    font-weight: 300;
+    font-weight: 400;
         
     font-style: normal;
         
-    }
+}*/
 
+@font-face {
+
+    font-family: Raleway;
+
+    src: url('../fonts/Raleway-Regular.eot');
+        
+    src: url('../fonts/Raleway-Regular.eot') format('eot'),
+        
+    url('../fonts/Raleway-Regular.woff') format('woff'),
+        
+    url('../fonts/Raleway-Regular.ttf') format('truetype'),
+        
+    url('../fonts/Raleway-Regular.svg') format('svg');
+        
+    font-weight: 400;
+        
+    font-style: normal;
+        
+}
+
+    @font-face {
+
+        font-family: Raleway;
+    
+        src: url('../fonts/Raleway-Bold.eot');
+            
+        src: url('../fonts/Raleway-Bold.eot') format('eot'),
+            
+        url('../fonts/Raleway-Bold.woff') format('woff'),
+            
+        url('../fonts/Raleway-Bold.ttf') format('truetype'),
+            
+        url('../fonts/Raleway-Bold.svg') format('svg');
+            
+        font-weight: 900;
+            
+        font-style: bold;
+            
+        }
+    
+    

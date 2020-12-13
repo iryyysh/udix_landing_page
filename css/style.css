@@ -56,12 +56,38 @@ a {
   text-decoration: none;
 }
 
+/*@font-face {
+
+    font-family: 'Raleway';
+
+    src: url('../fonts/Raleway-VariableFont_wght.eot');
+
+    src: url('../fonts/Raleway-VariableFont_wght.eot') format('eot'),
+
+    url('../fonts/Raleway-VariableFont_wght.woff') format('woff'),
+
+    url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype'),
+
+    url('../fonts/Raleway-VariableFont_wght.svg') format('svg');
+
+    font-weight: 400;
+
+    font-style: normal;
+
+}*/
 @font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-VariableFont_wght.eot");
-  src: url("../fonts/Raleway-VariableFont_wght.eot") format("eot"), url("../fonts/Raleway-VariableFont_wght.woff") format("woff"), url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype"), url("../fonts/Raleway-VariableFont_wght.svg") format("svg");
-  font-weight: 300;
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Regular.eot");
+  src: url("../fonts/Raleway-Regular.eot") format("eot"), url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.ttf") format("truetype"), url("../fonts/Raleway-Regular.svg") format("svg");
+  font-weight: 400;
   font-style: normal;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Bold.eot");
+  src: url("../fonts/Raleway-Bold.eot") format("eot"), url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway-Bold.svg") format("svg");
+  font-weight: 900;
+  font-style: bold;
 }
 body {
   font-family: Montserrat;
@@ -344,7 +370,7 @@ body {
   font-family: Raleway;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .services__title {
@@ -368,11 +394,11 @@ body {
 
 .arrows__text {
   margin: 0 15px;
-  color: #222222;
+  color: rgba(34, 34, 34, 0.5);
   font-family: Raleway;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 400;
   opacity: 0.8;
 }
 
@@ -453,6 +479,37 @@ body {
 
 .solutions__devider {
   margin-top: 140px;
+}
+
+.technology__inner {
+  margin: 140px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.technology__text {
+  margin-left: 140px;
+  width: 570px;
+}
+
+.technology__subtitle {
+  margin: 40px 0 80px;
+}
+
+.icon-link__text--blue {
+  color: #381DDB;
+}
+
+.technology__photos {
+  height: 480px;
+  box-shadow: 0 20px 100px rgba(34, 34, 34, 0.15);
+  position: relative;
+}
+
+.technology__img--absolute {
+  position: absolute;
+  top: 70px;
+  left: 70px;
 }
 
 @media (max-width: 1600px) {
