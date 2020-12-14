@@ -588,7 +588,34 @@ body {
 }
 
 .customers__inner {
-    margin-top: 140px;
+    margin: 140px 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.customers__slider {
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.block { 
+    display: flex;
+    justify-content: center;;
+}
+
+.slider__block {
+    padding: 20px 50px;
+    margin: 0 15px;
+
+    background-color: rgba($dark, 0.03);
+}
+
+.customers__arrows {
+    margin-top: 50px;
 }
 
 @media (max-width: 1600px) {
