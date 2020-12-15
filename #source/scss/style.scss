@@ -107,6 +107,7 @@ body {
 
         background-color: $blue;
 
+        cursor: pointer;
     }
 }
 
@@ -616,6 +617,7 @@ body {
 
     &:hover {
         background-color: #8F0202;
+        cursor: pointer;
     }
 
     &:active {

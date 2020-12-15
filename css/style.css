@@ -172,6 +172,7 @@ body {
 .button-small--usual:hover {
   color: #fff;
   background-color: #381DDB;
+  cursor: pointer;
 }
 
 .button-small--active {
@@ -614,6 +615,7 @@ body {
 }
 .subscribe-form__button:hover {
   background-color: #8F0202;
+  cursor: pointer;
 }
 .subscribe-form__button:active {
   outline: none;
