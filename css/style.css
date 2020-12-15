@@ -126,6 +126,7 @@ body {
 
 .header__menu {
   margin-left: 66px;
+  color: #fff;
 }
 
 .list {
@@ -134,7 +135,6 @@ body {
 
 .list__item {
   padding: 0 20px;
-  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
@@ -162,11 +162,26 @@ body {
   background: none;
   border: 2px solid transparent;
 }
+.button-small:active {
+  outline: none;
+}
+.button-small:focus {
+  outline: none;
+}
 
-.button-small--active:hover {
+.button-small--usual:hover {
+  color: #fff;
+  background-color: #381DDB;
+}
+
+.button-small--active {
   border: 2px solid #381DDB;
   border-radius: 0;
   cursor: pointer;
+}
+.button-small--active:hover {
+  color: #fff;
+  background-color: #381DDB;
 }
 
 .header__content-inner {
@@ -576,6 +591,15 @@ body {
   font-size: 16px;
   color: #fff;
 }
+.subscribe-form__text:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.subscribe-form__text:focus {
+  color: #222222;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
 
 .subscribe-form__button {
   margin-left: 10px;
@@ -587,6 +611,15 @@ body {
   color: #fff;
   background-color: #FC5252;
   border: none;
+}
+.subscribe-form__button:hover {
+  background-color: #8F0202;
+}
+.subscribe-form__button:active {
+  outline: none;
+}
+.subscribe-form__button:focus {
+  outline: none;
 }
 
 .working__add-text {
@@ -600,7 +633,7 @@ body {
 }
 
 .customers__inner {
-  margin: 140px 0;
+  margin-top: 140px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -627,8 +660,75 @@ body {
   margin-top: 50px;
 }
 
+.footer__inner {
+  margin-top: 140px;
+  padding: 60px 0 65px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(34, 34, 34, 0.03);
+}
+
+.footer__menu {
+  color: #222222;
+}
+
+.footer__logo-text {
+  width: 400px;
+  margin-right: 134px;
+}
+
+.footer__text {
+  margin-top: 30px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer__links-menu {
+  display: flex;
+  align-items: center;
+}
+
+.footer__buttons {
+  margin-left: 40px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-media {
+  margin-top: 40px;
+}
+
+.social-media__element {
+  margin-right: 30px;
+}
+.social-media__element:last-child {
+  margin-right: 0;
+}
+
+.social-media__element {
+  fill: #222222;
+}
+.social-media__element:hover {
+  fill: #381DDB;
+}
+
+.footer__menu .list__item--active:hover {
+  color: #381DDB;
+}
+
 @media (max-width: 1600px) {
   .header__content-inner {
-    margin-top: 60px;
+    margin: 60px;
   }
 }

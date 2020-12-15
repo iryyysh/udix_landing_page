@@ -45,6 +45,8 @@ body {
 
 .header__menu {
     margin-left: 66px;
+
+    color: $light;
 }
 
 .list {
@@ -54,7 +56,7 @@ body {
 .list__item {
     padding: 0 20px;
     
-    color: $light;
+    
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
@@ -88,14 +90,37 @@ body {
     background: none;
     border: 2px solid transparent;
     
+    &:active {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+}
+
+.button-small--usual {
+
+    &:hover {
+        color: $light;
+
+        background-color: $blue;
+
+    }
 }
 
 .button-small--active {
-    &:hover {
-        border: 2px solid $blue;
-        border-radius: 0;
+    border: 2px solid $blue;
+    border-radius: 0;
 
-        cursor: pointer;
+    cursor: pointer;
+
+    &:hover {
+        color: $light;
+
+        background-color: $blue;
+
     }
 }
 
@@ -551,15 +576,29 @@ body {
     font-size: 16px;
     color: $light;
 
+    background-color: rgba($light, 0.1);
+    border: none;
+
     &:placeholder {
         font-family: Raleway;
         font-size: 16px;
         color: $light;
     }
+
+    &:hover {
+        background-color: rgba($light, 0.15);
+    }
+
+    &:focus {
+        color: $dark;
+
+        background-color: $light;
+        border: none;
+        outline: none;
+    }
     
 
-    background-color: rgba($light, 0.1);
-    border: none;
+    
 }
 
 .subscribe-form__button {
@@ -574,6 +613,19 @@ body {
 
     background-color: $red;
     border: none;
+
+    &:hover {
+        background-color: #8F0202;
+    }
+
+    &:active {
+        outline: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+    
 }
 
 .working__add-text {
@@ -588,7 +640,7 @@ body {
 }
 
 .customers__inner {
-    margin: 140px 0;
+    margin-top: 140px;
 
     display: flex;
     align-items: center;
@@ -618,10 +670,86 @@ body {
     margin-top: 50px;
 }
 
+
+.footer__inner {
+    margin-top: 140px;
+    padding: 60px 0 65px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba($dark, 0.03);
+}
+
+.footer__menu {
+    color: $dark;
+}
+
+.footer__logo-text {
+    width: 400px;
+    margin-right: 134px;
+}
+
+.footer__text {
+    margin-top: 30px;
+
+    font-family: Raleway;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba($dark, 0.5)
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.footer__links-menu {
+    display: flex;
+    align-items: center;
+}
+
+.footer__buttons {
+    margin-left: 40px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-media {
+    margin-top: 40px;
+}
+
+.social-media__element {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social-media__element {
+    fill: $dark;
+
+    &:hover {
+        fill: $blue;
+    }
+}
+
+.footer__menu .list__item--active {
+    &:hover {
+        color: $blue;
+    }
+}
+
 @media (max-width: 1600px) {
 
 .header__content-inner {
-    margin-top: 60px;
+    margin: 60px;
 }
 
 }
