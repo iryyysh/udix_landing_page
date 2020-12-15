@@ -755,3 +755,45 @@ body {
 }
 
 }
+
+@media (max-width: 1400px) {
+
+    .header__content-inner {
+        margin: 60px;
+    }
+
+    .header__buttons {
+        margin-left: 418px;
+    }
+    
+    .header__form {
+        margin-left: 100px;
+    }
+
+    .services__content {
+        margin-left: 100px;
+    }
+
+    .technology__text {
+        margin-left: 110px;
+    }
+
+    .technology__img--absolute {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    .working__inner {
+        width: 1130px;
+    }
+
+    .slider__block {
+        padding: 20px 45px
+    }
+
+    .footer__logo-text {
+        margin-right: 114px;
+    }
+
+}
