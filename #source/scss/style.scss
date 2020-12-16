@@ -720,10 +720,17 @@ body {
 
 .footer__buttons {
     margin-left: 40px;
+
+    
 }
 
 .footer__buttons .button-small {
     color: $blue;
+
+    &:hover {
+        color: $light;
+    }
+    
 }
 
 .footer__buttons .button-small--active {
@@ -912,6 +919,15 @@ body {
     .slider__block {
         padding: 20px 30px;
     }
+
+    .footer__links-menu {
+        margin-left: 364px;
+    }
+
+    .footer__social-media {
+        margin-left: 410px;
+    }
+
 /*
     .footer__logo-text {
         margin-right: 134px;
@@ -1039,6 +1055,14 @@ body {
 
     .slider__block-img {
         height: 60px;
+    }
+
+    .footer__links-menu {
+        margin-left: 224px;
+    }
+
+    .footer__social-media {
+        margin-left: 270px;
     }
 /*
     .footer__logo-text {

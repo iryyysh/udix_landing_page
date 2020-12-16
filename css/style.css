@@ -710,6 +710,9 @@ body {
 .footer__buttons .button-small {
   color: #381DDB;
 }
+.footer__buttons .button-small:hover {
+  color: #fff;
+}
 
 .footer__buttons .button-small--active {
   border-color: #381DDB;
@@ -888,6 +891,14 @@ body {
     padding: 20px 30px;
   }
 
+  .footer__links-menu {
+    margin-left: 364px;
+  }
+
+  .footer__social-media {
+    margin-left: 410px;
+  }
+
   /*
       .footer__logo-text {
           margin-right: 134px;
@@ -1010,6 +1021,14 @@ body {
 
   .slider__block-img {
     height: 60px;
+  }
+
+  .footer__links-menu {
+    margin-left: 224px;
+  }
+
+  .footer__social-media {
+    margin-left: 270px;
   }
 
   /*
