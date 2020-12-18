@@ -104,7 +104,7 @@ body {
 
 .header__inner {
   background-size: cover;
-  background-image: url("../../img/image_1.jpg");
+  background-image: url(../img/image_1.jpg);
   height: 100vh;
   overflow: initial;
 }
@@ -994,10 +994,7 @@ body {
 }
 @media (max-width: 1024px) {
   .header__inner {
-    background-size: cover;
-    background-image: url(../../img/background.jpg);
-    height: 100vh;
-    overflow: initial;
+    background-image: url("../img/background.jpg");
   }
 
   .container {

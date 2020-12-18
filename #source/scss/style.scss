@@ -22,7 +22,7 @@ body {
 
 .header__inner {
     background-size: cover;
-    background-image: url("../../img/image_1.jpg");
+    background-image: url(../img/image_1.jpg);
     height: 100vh;
     overflow: initial;
 }
@@ -930,13 +930,6 @@ body {
         line-height: 32px;
     }
 
-    .services__title {
-    }
-
-    .services__subtitle {
-    }
-
-
     .services__devider {
         width: 950px;
     }
@@ -1039,10 +1032,7 @@ body {
 @media (max-width: 1024px) {
 
     .header__inner {
-        background-size: cover;
-        background-image: url(../../img/background.jpg);
-        height: 100vh;
-        overflow: initial;
+        background-image: url('../img/background.jpg');
     }
 
     .container {
