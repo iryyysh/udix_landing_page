@@ -993,6 +993,13 @@ body {
   }
 }
 @media (max-width: 1024px) {
+  .header__inner {
+    background-size: cover;
+    background-image: url(../../img/background.jpg);
+    height: 100vh;
+    overflow: initial;
+  }
+
   .container {
     margin: 0 40px;
   }
@@ -1129,7 +1136,7 @@ body {
   }
 
   .services__inner {
-    margin-top: 390px;
+    margin-top: 450px;
     align-items: center;
   }
 
@@ -1318,7 +1325,7 @@ body {
   }
 
   .services__inner {
-    margin-top: 450px;
+    margin-top: 400px;
   }
 
   .form__img-2 {
@@ -1582,5 +1589,35 @@ body {
 
   .footer__text {
     width: 315px;
+  }
+}
+@media (max-width: 650px) {
+  .services__inner {
+    margin-top: 450px;
+  }
+}
+@media (max-width: 535px) {
+  .services__inner {
+    margin-top: 470px;
+  }
+}
+@media (max-width: 450px) {
+  .services__inner {
+    margin-top: 490px;
+  }
+}
+@media (max-width: 450px) {
+  .services__inner {
+    margin-top: 520px;
+  }
+}
+@media (max-width: 380px) {
+  .services__inner {
+    margin-top: 600px;
+  }
+}
+@media (max-width: 1130px) {
+  .header__inner {
+    background-position: -50px;
   }
 }
