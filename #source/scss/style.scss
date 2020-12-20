@@ -1519,8 +1519,9 @@ footer .container {
 
 .working__subscribe-form {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .subscribe-form__button {
@@ -1549,7 +1550,7 @@ footer .container {
 }
 
 .footer__logo-text {
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .footer__links-menu {
@@ -1559,12 +1560,17 @@ footer .container {
 }
 
 .footer__links {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-flow: column-reverse;
 }
 
 .footer__text {
+    margin-top: 20px;
+
     text-align: center;
+}
+
+.footer__social-media {
+    margin-top: 20px;
 }
 
 .menu__list {
