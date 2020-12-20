@@ -97,6 +97,10 @@ body {
   margin: 0 auto;
 }
 
+.button-small--menu {
+  display: none;
+}
+
 .header {
   height: auto;
   max-height: 100%;
@@ -1402,8 +1406,16 @@ body {
     padding: 34px 27px 20px;
   }
 
-  .header__buttons {
+  .button-small--usual, .button-small--active {
     display: none;
+  }
+
+  .button-small--menu {
+    display: block;
+  }
+
+  .header__top {
+    justify-content: space-between;
   }
 
   .header__content-inner {
